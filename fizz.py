@@ -16,4 +16,5 @@ def Fizzbuzz(list1, list2):
 # checking if combined length is divisible by both 5 and 3.
         if z%5 == 0 and z%3 == 0:
             return "Fizzbuzz"
+#calling the function
 print(Fizzbuzz([1, 2, 3], [1, 2]))
